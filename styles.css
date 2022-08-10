@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    padding: 10px;
+}
+
+img{
+    max-width: 400px;
+    height: auto; 
+}
+
+button{
+    background-color: rgb(58, 58, 223);
+    border: 0;
+    color: white;
+    max-width: fit-content;
+    border-radius: 25px;
+}
+
+.header{
+    color: white;
+    display:flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    background-color: rgb(51, 51, 77);
+}
+
+
+
+.container{
+    display: flex;
+}
+
+.horizontal_container{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+} 
+
+.vertical_container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
